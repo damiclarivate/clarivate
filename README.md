@@ -36,7 +36,7 @@ Request type : POST
 URL : http://localhost:8080/trades/calculate
 Body Media Type : JSON
 Example body :
-
+```
 http://localhost:8080/trades/calculate
 [
  {"securityType":"STO", "transactionType":"BUY", "price":1, "quantity":100,"tradeTime":"2021-01-07 02:02:16.172"},
