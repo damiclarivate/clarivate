@@ -58,7 +58,8 @@ Run the command `./mvnw package`. It runs all the tests, and builds a jar file.
 I have done some stress testing on this. It can handle > 10 requests at a time.
 
 <h3>Improvements</h3>
+
 There are many things to improve this, but I ran out of time.
-1. More comprehensive tests are needed.
-2. Performance can be improved potentially by Spring WebFlux. Or it could be run on the cloud, e.g. AWS. Configure scaling measures like load balancing, replication etc,
-3. There are some TODO's in the code on potential improvements.
+* More comprehensive tests are needed.
+* Performance can be improved potentially by Spring WebFlux. Or it could be run on the cloud, e.g. AWS. Configure scaling measures like load balancing, replication etc,
+* There are some TODO's in the code on potential improvements.
