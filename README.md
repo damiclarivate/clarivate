@@ -30,7 +30,7 @@ docker run -p 8080:8080 clarivate-app
 You can navigate to the section `Make a Post Request` for guidance on making HTTP requests to the application.
 
 <h3>Make a POST request</h3>
-```
+
 There are several tools to make HTTP requests to an application (e.g. Postman). Use parameters
 Request type : POST
 URL : http://localhost:8080/trades/calculate
