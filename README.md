@@ -3,8 +3,8 @@
 This is a SpringBoot Web app that provides an http post service to calculate the total commission for a list of trades.
 
 <h2>Running the application </h2>
-Navigate to the root directory of the application.
-<h3>Using maven</h3>
+Navigate to the root directory of the application
+<h3>Run the application using maven</h3>
 This assumes you have maven installed on your machine.
 
 
@@ -20,13 +20,13 @@ java -jar target/tradeservice-0.0.1-SNAPSHOT.jar
 ```
 This starts up the application. You can navigate to the section `Make a Post Request` for guidance on making HTTP requests to the application.
 
-<h3>Using Docker</h3>
+<h3>Run the application using Docker</h3>
+Run the following commands
 
 ```
 docker build -t clarivate-app .
 docker run -p 8080:8080 clarivate-app
 ```
-
 
 (You can use any image name instead of `clarivate-app`).
 You can navigate to the section `Make a Post Request` for guidance on making HTTP requests to the application.
@@ -34,7 +34,8 @@ You can navigate to the section `Make a Post Request` for guidance on making HTT
 <h3>Make a POST request</h3>
 
 
-There are several tools to make HTTP requests to an application (e.g. Postman). E.g.
+There are several tools to make HTTP requests to an application (e.g. Postman). E.g. you can use the parameters
+
 ```
 Request type : POST
 URL : http://localhost:8080/trades/calculate
